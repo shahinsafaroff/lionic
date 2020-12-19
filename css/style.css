@@ -129,7 +129,7 @@ html {
 /* Hero */
 
 .section-hero {
-    background: url ('..img/hero.jpg') right-center no-repeat white;
+    background: url ('../img/hero.jpg') right-center no-repeat white;
     background-size: contain;
 }
 
@@ -291,15 +291,15 @@ html {
 }
 
 .section-contacts-icon-gps {
-    background-image: url('/img/gps.png');
+    background-image: url('../img/gps.png');
 }
 
 .section-contacts-icon-phone {
-    background-image: url('/img/phone.png');
+    background-image: url('../img/phone.png');
 }
 
 .section-contacts-icon-mail {
-    background-image: url('/img/mail.png'); 
+    background-image: url('../img/mail.png'); 
     background-size: auto 19px;
 }
 
@@ -315,6 +315,8 @@ html {
     color: gray;
 }
 
+
+/* Footer */
 .footer {
     height: 125px;
 }
@@ -383,6 +385,13 @@ html {
     width: 18px;
     height: 15px;
     background-image: url('../img/twitter.svg');
+    transform: translateY(-2px);
+}
+
+.footer-social-icon-in {
+    width: 18px;
+    height: 19px;
+    background-image: url('../img/in.svg');
     transform: translateY(-2px);
 }
 
