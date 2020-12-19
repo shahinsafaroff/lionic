@@ -129,7 +129,7 @@ html {
 /* Hero */
 
 .section-hero {
-    background: url ('..img/hero.jpg') right-center no-repeat white;
+    background: url ('/img/hero.jpg') right-center no-repeat white;
     background-size: contain;
 }
 
@@ -167,7 +167,7 @@ html {
     width: 13px;
     height: 17px;
     margin-right: 13px;
-    background: url(../img/ssl.svg) center center no-repeat transparent;
+    background: url(/img/ssl.svg) center center no-repeat transparent;
 }
 
 /* What we do */
